@@ -24,6 +24,7 @@ results/
 *.json
 # 允许文档文件
 !README.md
+!README_CN.md
 !QUICKSTART.md
 !CLOUD_SETUP.md
 *.md
