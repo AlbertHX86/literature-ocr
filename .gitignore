@@ -22,6 +22,10 @@ models/
 outputs/
 results/
 *.json
+# 允许文档文件
+!README.md
+!QUICKSTART.md
+!CLOUD_SETUP.md
 *.md
 
 # IDE
