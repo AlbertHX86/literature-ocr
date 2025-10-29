@@ -1,0 +1,34 @@
+# 核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.51.1
+accelerate>=0.20.0
+
+# 向量数据库和嵌入
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+
+# PDF 处理
+pypdf2>=3.0.0
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# 工具库
+numpy>=1.24.0
+tqdm>=4.65.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+addict>=2.4.0  # DeepSeek-OCR 需要
+easydict>=1.9  # DeepSeek-OCR 需要
+
+# HTTP 请求（Hugging Face API 必需）
+requests>=2.31.0
+
+# LLM 支持（可选，推荐使用 Hugging Face API）
+# OpenAI API（可选）
+openai>=1.0.0
+# 或者使用本地 Ollama（可选）
+# ollama>=0.1.0
+
+# 可选：加速推理（仅本地模式需要）
+# flash-attn>=2.7.3  # 需要单独安装，见 README
